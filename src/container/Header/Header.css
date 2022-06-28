@@ -1,0 +1,84 @@
+.app__header-left {
+      position: relative;
+}
+
+.subHeading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17.525px;
+      line-height: 26px;
+      margin-bottom: 0;
+
+      color: var(--color-yellow);
+}
+
+.mainHeading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 70.8037px;
+      line-height: 106px;
+      display: flex;
+      align-items: center;
+      color: var(--color-black);
+}
+
+.app__header-underHeading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 23.3667px;
+      line-height: 35px;
+      /* identical to box height */
+      margin-bottom: 0;
+
+      color: #207733;
+}
+
+.app__header-content {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17.525px;
+      line-height: 26px;
+      margin-top: 10px;
+      color: var(--color-black-50);
+
+}
+
+.app__header-left_info {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+}
+
+.app__header-left img {
+      position: absolute;
+      top: 80%;
+}
+
+.app__header-btn {
+      margin-top: 30px;
+}
+
+.app__header-btn .custom__button {
+      box-shadow: none;
+      margin-right: 20px;
+}
+
+.app__header-btn a {
+      text-decoration: none;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14.6042px;
+      line-height: 22px;
+      color: var(--color-black);
+}
+
+.app__header-btn a .download-icon {
+      margin-left: 26px;
+      color: var(--color-yellow);
+      font-size: 1.6rem;
+}
