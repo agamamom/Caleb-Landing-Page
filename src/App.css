@@ -1,3 +1,7 @@
+.section__padding {
+  padding: 0 6rem;
+}
+
 .flex__center {
   display: flex;
   justify-content: center;
@@ -5,7 +9,7 @@
 }
 
 .app__bg {
-  background: linear-gradient(#ECB22E00, #FFFFFF54);
+  background: linear-gradient(to bottom, #ecb32e23, #ffff)
 }
 
 .app__wrapper-between {
@@ -18,13 +22,14 @@
 .custom__button {
   background-color: var(--color-yellow);
   color: var(--color-white);
-  padding: 10px, 29px, 10px, 29px;
+  padding: 10px 29px 10px 29px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 22px;
   border-radius: 5px;
+  border: none;
 }
 
 .p__poppins {
