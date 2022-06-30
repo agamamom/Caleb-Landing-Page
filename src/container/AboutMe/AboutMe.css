@@ -1,0 +1,109 @@
+.app__aboutMe {
+      margin: 100px 0;
+}
+
+.app__aboutMe-left {
+      text-align: center;
+}
+
+.app__aboutMe-right {
+      position: relative;
+}
+
+.app__aboutMe-right_info {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+}
+
+.app__aboutMe-subHeading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19.4722px;
+      line-height: 29px;
+
+      color: var(--color-yellow);
+}
+
+.app__aboutMe-mainHeading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 38.9444px;
+      line-height: 58px;
+
+      color: rgba(0, 0, 0, 0.81);
+}
+
+.app__aboutMe-content {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17.525px;
+      line-height: 26px;
+
+      color: var(--color-black-50);
+}
+
+.app__aboutMe-achievement .app__aboutMe-achievement--experience:nth-child(1) {
+      justify-content: flex-start;
+}
+
+.app__aboutMe-achievement .app__aboutMe-achievement--experience:nth-child(3) {
+      margin-top: 30px;
+}
+
+.app__aboutMe-achievement--experience {
+      display: flex;
+      align-items: center;
+}
+
+.app__aboutMe-achievement--experienceInfo {
+      margin-left: 14px;
+}
+
+.app__aboutMe-achievement--experienceInfo p:first-child {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15.5778px;
+      line-height: 23px;
+      margin-bottom: 0;
+      color: var(--color-yellow);
+}
+
+.app__aboutMe-achievement--experienceInfo p:last-child {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15.5778px;
+      line-height: 23px;
+      margin-bottom: 0;
+      color: var(--color-black);
+}
+
+.app__aboutMe-btn {
+      margin-top: 30px;
+}
+
+.app__aboutMe-btn .custom__button {
+      box-shadow: none;
+      margin-right: 20px;
+}
+
+.app__aboutMe-btn a {
+      text-decoration: none;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14.6042px;
+      line-height: 22px;
+      color: var(--color-black);
+}
+
+.app__aboutMe-btn a .download-icon {
+      margin-left: 18px;
+      color: var(--color-yellow);
+      font-size: 1.6rem;
+}

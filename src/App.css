@@ -9,7 +9,7 @@
 }
 
 .app__bg {
-  background: linear-gradient(to bottom, #ecb32e1e, #ffff)
+  background: linear-gradient(to bottom, #ecb32e1e 10%, #ffff 20%)
 }
 
 .app__wrapper-between {

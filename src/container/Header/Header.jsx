@@ -1,5 +1,4 @@
 import React from 'react'
-import Heading from '../../components/Heading/Heading'
 import { BsDownload } from "react-icons/bs"
 import images from '../../constants/images'
 import './Header.css'
