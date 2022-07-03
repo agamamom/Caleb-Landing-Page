@@ -1,0 +1,41 @@
+.app__services {
+      text-align: center;
+}
+
+.app__services .p-Explore {
+      text-align: right;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.6042px;
+      line-height: 22px;
+      /* identical to box height */
+      cursor: pointer;
+
+      color: var(--color-yellow);
+}
+
+.app__services-itemContainer .row {
+      justify-content: space-around;
+}
+
+.app__service-item .app__service-item-title {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 19.4722px;
+      line-height: 29px;
+      margin-top: 20px;
+      color: rgba(0, 0, 0, 0.81);
+}
+
+.app__service-item .app__service-item-content {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14.6042px;
+      line-height: 22px;
+      text-align: center;
+
+      color: var(--color-black-50);
+}

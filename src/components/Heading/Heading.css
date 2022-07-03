@@ -1,16 +1,23 @@
 .sub-heading {
-      color: var(--color-yellow);
-      font-weight: 400;
-      font-size: 17.52px;
-      line-height: 26.29px;
+
       font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15.5778px;
+      line-height: 23px;
+      margin-bottom: 0;
+      color: var(--color-yellow);
 }
 
 .main-heading {
+
       font-family: 'Poppins';
       font-style: normal;
-      font-weight: 600;
-      font-size: 70.8037px;
-      line-height: 106px;
+      font-weight: 500;
+      font-size: 31.1556px;
+      line-height: 47px;
+      /* identical to box height */
+
+
       color: var(--color-black);
 }
