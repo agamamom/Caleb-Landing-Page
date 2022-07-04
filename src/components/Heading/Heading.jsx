@@ -3,7 +3,7 @@ import './Heading.css'
 
 const Heading = ({ subTitle, mainTitle }) => {
       return (
-            <div>
+            <div className='heading'>
                   <p className='sub-heading'>{subTitle}</p>
                   <h2 className='main-heading'>{mainTitle}</h2>
             </div>

@@ -32,6 +32,19 @@
   border: none;
 }
 
+.custom__button-outline {
+  color: var(--color-yellow);
+  border: 1px solid var(--color-yellow);
+  padding: 10px 29px 10px 29px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
 .p__poppins {
   font-family: var(--font-base);
   color: var(--color-black-50);

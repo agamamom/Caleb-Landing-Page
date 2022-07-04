@@ -1,0 +1,33 @@
+.app__portfolio {
+      margin-top: 90px;
+}
+
+.app__portfolio.section__padding {
+      padding: 1rem 12rem;
+}
+
+.app__portfolio--item>row {
+      text-align: center;
+}
+
+.app__portfolio--item .row .col-6 {
+      margin-bottom: 20px;
+}
+
+.app__portfolio>.heading {
+      text-align: center;
+      margin-bottom: 60px;
+}
+
+.app__portfolio .p-Explore {
+      text-align: right;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.6042px;
+      line-height: 22px;
+      /* identical to box height */
+      cursor: pointer;
+
+      color: var(--color-yellow);
+}

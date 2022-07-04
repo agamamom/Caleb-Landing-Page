@@ -1,0 +1,56 @@
+.app__caseStudy {
+      margin-top: 110px;
+
+}
+
+.app__caseStudy>.heading {
+      text-align: center;
+      margin-bottom: 60px;
+}
+
+.app__caseStudy--caseOne .col-6.caseOne__content-wrap,
+.app__caseStudy--caseTwo .col-6.caseTwo__content-wrap,
+.app__caseStudy--caseThree .col-6.caseThree__content-wrap {
+      align-self: center;
+}
+
+.app__caseStudy--caseOne .caseOne__content .heading .sub-heading,
+.app__caseStudy--caseTwo .caseTwo__content .heading .sub-heading,
+.app__caseStudy--caseThree .caseThree__content .heading .sub-heading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 31.1556px;
+      line-height: 47px;
+      /* identical to box height */
+
+
+      color: var(--color-yellow);
+}
+
+.app__caseStudy--caseOne .caseOne__content .heading .main-heading,
+.app__caseStudy--caseTwo .caseTwo__content .heading .main-heading,
+.app__caseStudy--caseThree .caseThree__content .heading .main-heading {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 23.3667px;
+      line-height: 35px;
+      /* identical to box height */
+
+
+      color: rgba(0, 0, 0, 0.81);
+
+}
+
+.caseOne__content-p,
+.caseTwo__content-p,
+.caseThree__content-p {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17.525px;
+      line-height: 26px;
+
+      color: var(--color-black-50);
+}

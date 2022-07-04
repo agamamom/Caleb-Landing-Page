@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import { Header, AboutMe, Services, CaseStudy } from './container/index'
+import { Header, AboutMe, Services, CaseStudy, Portfolio, Testimonials } from './container/index'
 
 function App() {
   return (
@@ -11,6 +11,8 @@ function App() {
       <AboutMe />
       <Services />
       <CaseStudy />
+      <Portfolio />
+      <Testimonials />
     </div>
   );
 }
