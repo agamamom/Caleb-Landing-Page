@@ -19,3 +19,122 @@
       z-index: 1;
       right: 6rem;
 }
+
+.app__testimonials .swiper {
+      height: 420px;
+}
+
+.swiper-wrapper .swiper-slide {
+      position: relative;
+      padding: 20px 0;
+}
+
+.app__testimonials--container {
+      position: absolute;
+      left: 62%;
+      top: 16%;
+      transform: translateX(-50%);
+      background: #FFFFFF;
+      box-shadow: 0px 3.89444px 19.4722px rgba(19, 23, 61, 0.1);
+      border-radius: 18.8995px;
+      width: 880px;
+      height: 209px;
+}
+
+.app__testimonials--container .Ellipse {
+      left: 50%;
+      top: -25%;
+      position: absolute;
+      transform: translateX(-50%);
+}
+
+.app__testimonials--container .quote-right {
+      position: absolute;
+      bottom: 10%;
+      right: 7%;
+}
+
+.app__testimonials--container .quote-left {
+      position: absolute;
+      top: 10%;
+      left: 7%;
+}
+
+.app__testimonials--container .app__testimonials--actorInfo {
+      position: absolute;
+      text-align: center;
+      width: 60%;
+      top: 70%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+}
+
+.app__testimonials-comment {
+
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13.6306px;
+      line-height: 20px;
+      text-align: center;
+
+      color: var(--color-black-50);
+}
+
+.testimonial-nameActor {
+      margin-top: 30px;
+      margin-bottom: 0;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 15.5778px;
+      line-height: 23px;
+
+      color: var(--color-black);
+}
+
+.testimonials-major {
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12.6569px;
+      line-height: 19px;
+      /* identical to box height */
+      color: var(--color-black-50);
+}
+
+/* .app__testimonials .swiper .swiper-button-prev {
+      left: 22%;
+      background-image: url(../../assets/arrow-icon-left.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      width: 70px;
+      height: 70px;
+      background-color: orange;
+      border-radius: 10px;
+}
+
+.app__testimonials .swiper .swiper-button-prev::after {
+      display: none;
+}
+
+.app__testimonials .swiper .swiper-button-next {
+      right: 26%;
+      background-image: url(../../assets/arrow-icon-right.svg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: auto;
+      width: 70px;
+      height: 70px;
+      background-color: orange;
+      border-radius: 10px;
+}
+
+.app__testimonials .swiper .swiper-button-next:hover {
+      background-color: red;
+}
+
+.app__testimonials .swiper .swiper-button-next::after {
+      display: none;
+} */

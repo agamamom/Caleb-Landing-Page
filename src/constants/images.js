@@ -23,8 +23,13 @@ import boxColor2 from '../assets/box-color2.png'
 import quoteRight from '../assets/quote-right.svg'
 import quoteLeft from '../assets/quote-left.svg'
 import Ellipse2 from '../assets/Ellipse 2.png'
+import arrowLeft from '../assets/arrow-icon-left.svg'
+import arrowRight from '../assets/arrow-icon-right.svg'
+import slackLogo from '../assets/slack logo.png'
+import vectorLogo from '../assets/Vector.png'
+import googleLogo from '../assets/google logo.png'
+import teslaLogo from '../assets/tesla logo.png'
 
-
-const linkImages = { logo, manComputer, manComputer2, profileHeader, iconPerson, iconList, iconMedal, LandingPage, MobileApp, Branding, serviceBranding, serviceLandingPage, serviceMoble, case1, case2, case3, Portfolio1, Portfolio2, Portfolio3, Portfolio4, boxColor, boxColor2, quoteLeft, quoteRight, Ellipse2 }
+const linkImages = { logo, manComputer, manComputer2, profileHeader, iconPerson, iconList, iconMedal, LandingPage, MobileApp, Branding, serviceBranding, serviceLandingPage, serviceMoble, case1, case2, case3, Portfolio1, Portfolio2, Portfolio3, Portfolio4, boxColor, boxColor2, quoteLeft, quoteRight, Ellipse2, arrowLeft, arrowRight, slackLogo, vectorLogo, googleLogo, teslaLogo }
 
 export default linkImages
