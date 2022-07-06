@@ -1,7 +1,7 @@
 
 import './App.css';
 import Navbar from './components/navbar/navbar';
-import { Header, AboutMe, Services, CaseStudy, Portfolio, Testimonials, Client } from './container/index'
+import { Header, AboutMe, Services, CaseStudy, Portfolio, Testimonials, Client, ContactUs } from './container/index'
 function App() {
   return (
     <div className='app__bg'>
@@ -13,6 +13,7 @@ function App() {
       <Portfolio />
       <Testimonials />
       <Client />
+      <ContactUs />
     </div>
   );
 }

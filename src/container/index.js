@@ -5,5 +5,6 @@ import CaseStudy from "./CaseStudy/CaseStudy";
 import Portfolio from "./Portfolio/Portfolio";
 import Testimonials from "./Testimonials/Testimonials"
 import Client from "./Clients/Client";
+import ContactUs from "./Contact/ContactUs";
 
-export { Header, AboutMe, Services, CaseStudy, Portfolio, Testimonials, Client };
+export { Header, AboutMe, Services, CaseStudy, Portfolio, Testimonials, Client, ContactUs };
